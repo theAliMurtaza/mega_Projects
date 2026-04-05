@@ -1,0 +1,13 @@
+/* Styles used when rendering resume templates inside the preview iframe/div */
+.resume-preview-wrapper {
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.4);
+}
+
+/* Scoped print styles for PDF generation */
+@media print {
+  body { margin: 0; background: white; }
+  .no-print { display: none !important; }
+}
