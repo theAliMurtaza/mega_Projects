@@ -4,7 +4,7 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 // gemini-1.5-flash is free-tier, fast, and capable.
 // Swap to "gemini-1.5-pro" for higher quality (still free up to limits).
-const MODEL = "gemini-2.5-flash";
+const MODEL = "gemini-1.5-flash";
 
 // ── Raw text completion ───────────────────────────────────────────────────────
 export const geminiText = async (systemPrompt, userMessage, maxTokens = 1000) => {
